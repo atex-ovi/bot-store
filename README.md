@@ -181,9 +181,9 @@ PAY_RECIPIENT_NAME=Atex Ovi
 
 ## Disclaimer
 > [!CAUTION]
-> WhatsApp is a trademark of WhatsApp Inc.
-> This bot uses the [**atexovi-baileys**](https://www.npmjs.com/package/atexovi-baileys) library, which is open-source and unofficial.
-> Use this bot at your own risk and avoid spam or abuse.
+> WhatsApp Bot Store is an **experimental/template project** for managing products, orders, and payments via WhatsApp with interactive buttons.
+> This bot is **unofficial and not affiliated with WhatsApp Inc.** Use responsibly.  
+All usage is at your own risk; avoid spam or any activity that violates WhatsApp's terms of service.
 
 <br><br>
 
