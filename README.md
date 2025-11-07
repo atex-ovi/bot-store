@@ -170,3 +170,32 @@ PAY_RECIPIENT_NAME=Atex Ovi
 > - Upload receipts images and include address to speed up order processing.
 > - Admin will automatically receive notifications for new orders.
 > - Supports multiple payment methods with CTA buttons.
+
+<br><br>
+
+## Disclaimer
+> [!CAUTION]
+> WhatsApp is a trademark of WhatsApp Inc.
+> This bot uses the [**atexovi-baileys**](https://www.npmjs.com/package/atexovi-baileys) library, which is open-source and unofficial.
+> Use this bot at your own risk and avoid spam or abuse.
+
+<br><br>
+
+## Special Thanks
+- [WhatsApp API](https://www.whatsapp.com) - WhatsApp's official messaging technology.
+- [adiwajshing (Baileys)](https://github.com/adiwajshing) - Baileys library developer for WhatsApp API.
+- [WhiskeySockets Baileys](https://github.com/WhiskeySockets) - additional contributions to Baileys.
+
+<br><br>
+
+## Support & Donations
+If you find this project useful, consider supporting the development:
+
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://saweria.co/atexovi)
+
+<br><br>
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
