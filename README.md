@@ -71,12 +71,16 @@
 
 ## Demo Screenshots
 
-<table> 
-<tr> 
-<td><img src="https://raw.githubusercontent.com/atex-ovi/bot-store/main/src/assets/tempe-original.jpg" width="150"></td> 
-<td><img src="https://raw.githubusercontent.com/atex-ovi/bot-store/main/src/assets/tempe-balado.jpg" width="150"></td> 
-<td><img src="https://raw.githubusercontent.com/atex-ovi/bot-store/main/src/assets/tempe-pedas.jpg" width="150"></td> 
-<td><img src="https://raw.githubusercontent.com/atex-ovi/img-assets/main/e-wallet.jpg" width="150"></td>
+<table>
+<tr>
+<td><img src="https://raw.githubusercontent.com/atex-ovi/bot-store/main/src/assets/demo1.jpg" width="150"></td>
+<td><img src="https://raw.githubusercontent.com/atex-ovi/bot-store/main/src/assets/demo2.jpg" width="150"></td>
+<td><img src="https://raw.githubusercontent.com/atex-ovi/bot-store/main/src/assets/demo3.jpg" width="150"></td>
+</tr>
+<tr>
+<td><img src="https://raw.githubusercontent.com/atex-ovi/bot-store/main/src/assets/demo4.jpg" width="150"></td>
+<td><img src="https://raw.githubusercontent.com/atex-ovi/bot-store/main/src/assets/demo5.jpg" width="150"></td>
+<td><img src="https://raw.githubusercontent.com/atex-ovi/bot-store/main/src/assets/demo6.jpg" width="150"></td>
 </tr>
 </table>
 
