@@ -100,7 +100,7 @@ nano .env  # edit ADMIN_JID and payment info
 npm start
 
 ```
-- **Windows / Linux
+- **Windows / Linux**
 ```bash
 git clone git@github.com:atex-ovi/bot-store.git
 cd bot-store
