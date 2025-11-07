@@ -1,0 +1,35 @@
+{
+  "name": "bot-store",
+  "version": "0.0.1-beta",
+  "description": "Interactive WhatsApp bot template for product sales and store management.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "store",
+    "automation",
+    "button",
+    "sales",
+    "bot-store",
+    "atexovi-baileys"
+  ],
+  "author": "Atex Ovi",
+  "license": "MIT",
+  "dependencies": {
+    "atexovi-baileys": "latest",
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "dotenv": "^17.2.3",
+    "figlet": "^1.9.3",
+    "inquirer": "^12.9.6",
+    "jimp": "^1.6.0",
+    "ora": "^9.0.0",
+    "pino": "^10.1.0",
+    "lru-cache": "^10.0.0"
+  }
+}
