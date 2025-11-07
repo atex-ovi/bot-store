@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/assets/wa.png" alt="WhatsApp Bot Store" width="400"/>
+  <img src="src/assets/wa-title.png" alt="WhatsApp Bot Store" width="400"/>
 </p>
 
 <p align="center">
