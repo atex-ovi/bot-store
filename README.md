@@ -1,7 +1,6 @@
-<h1 align="center" style="font-size:72px;">
-  WhatsApp Bot Store
-</h1>
-<br>
+<p align="center">
+  <img src="src/assets/wa.png" alt="WhatsApp Bot Store" width="400"/>
+</p>
 
 <p align="center">
   <!-- 🔹 Project Info -->
