@@ -145,10 +145,11 @@ bot-store/
 ```
 
 ## Environment Variables
-Rename `.env.example` to `.env` and edit the following:
-Salin kode
-```
-# Admin JID
+> [!TIP]
+> Rename `.env.example` to `.env` to enable the **Pay Now** button, then update the file with your own information:
+
+```env
+# Admin WhatsApp JID
 ADMIN_JID=62xxxxxxxxxxx@s.whatsapp.net
 
 # Payment account numbers
@@ -157,15 +158,16 @@ PAY_SHOPEEPAY=08xxxxxxxxxx
 PAY_DANA=08xxxxxxxxxx
 PAY_GOPAY=08xxxxxxxxxx
 
-# Optional payment URLs
+# Optional payment URLs (replace with your own links)
 PAY_OVO_URL=https://ovo.id/payment/abcdef12345
 PAY_SHOPEEPAY_URL=https://shopeepay.link/abcdef12345
 PAY_DANA_URL=https://link.dana.id/minta/qr/123456abcdef
 PAY_GOPAY_URL=https://gopay.link/u/abcdef12345
 
-# Recipient name
+# Recipient / account holder name
 PAY_RECIPIENT_NAME=Atex Ovi
 ```
+
 > [!IMPORTANT]
 > Do not commit `.env` to public repository.
 
