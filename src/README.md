@@ -145,7 +145,8 @@ bot-store/
 <br>
 
 ## Environment Variables
-Rename `.env.example` to `.env` and edit the following:
+> [!TIP]
+> Rename `.env.example` to `.env` and edit the following:
 Salin kode
 ```
 # Admin JID
@@ -169,7 +170,7 @@ PAY_RECIPIENT_NAME=Atex Ovi
 > [!IMPORTANT]
 > Do not commit `.env` to public repository.
 
-> [!TIP]
+> [!NOTE]
 > - All product titles are placeholders; customize as needed.
 > - Upload receipts images and include address to speed up order processing.
 > - Admin will automatically receive notifications for new orders.
