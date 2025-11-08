@@ -128,7 +128,6 @@ bot-store/
     │   └── tempe-pedas.jpg
     ├── data
     │   ├── orders.json
-    │   ├── receipts/
     │   └── userState.js
     ├── features
     │   ├── orderHandler.js
