@@ -23,9 +23,6 @@
   <a href="https://github.com/atex-ovi/bot-store/network/members" target="_blank">
     <img src="https://img.shields.io/github/forks/atex-ovi/bot-store?style=flat&label=Forks&color=white&labelColor=181717&logo=github" alt="GitHub Forks">
   </a>
-  <a href="https://github.com/atex-ovi/bot-store/issues" target="_blank">
-    <img src="https://img.shields.io/github/issues/atex-ovi/bot-store?style=flat&label=Issues&color=white&labelColor=181717&logo=github" alt="GitHub Issues">
-  </a>
   <a href="https://github.com/atex-ovi/bot-store/commits/main" target="_blank">
     <img src="https://img.shields.io/github/last-commit/atex-ovi/bot-store?style=flat&label=Last%20Commit&color=white&labelColor=181717&logo=git" alt="Last Commit">
   </a>
