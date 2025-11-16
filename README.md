@@ -17,6 +17,9 @@
 
 <p align="center">
   <!-- 🔹 GitHub Stats -->
+  <a href="https://github.com/atex-ovi" target="_blank">
+    <img src="https://img.shields.io/badge/My Profile-181717?style=flat&logo=github&logoColor=white" alt="My Profile">
+  </a>
   <a href="https://github.com/atex-ovi/bot-store/stargazers" target="_blank">
     <img src="https://img.shields.io/github/stars/atex-ovi/bot-store?style=flat&label=Stars&color=white&labelColor=181717&logo=github" alt="GitHub Stars">
   </a>
@@ -30,9 +33,6 @@
 
 <p align="center">
   <!-- 🔹 Donate & Contact -->
-  <a href="https://github.com/sponsors/atex-ovi" target="_blank">
-    <img src="https://img.shields.io/badge/Sponsor-%23f06?style=flat&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors">
-  </a>
   <a href="https://saweria.co/atexovi" target="_blank">
     <img src="https://img.shields.io/badge/Saweria-FFA726?style=flat&logo=ko-fi&logoColor=white" alt="Saweria">
   </a>
@@ -41,6 +41,9 @@
   </a>
   <a href="https://facebook.com/atex.ovi" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook">
+  </a>
+  <a href="https://whatsapp.com/channel/0029VbCMQ6x30LKO5q0GaC0n" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp">
   </a>
 </p>
 
