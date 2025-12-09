@@ -12,6 +12,75 @@ import { wrapSendMessageGlobally } from './src/utils/typing.js';
 
 dotenv.config({ debug: false });
 
+const originalError = console.error;
+const originalLog = console.log;
+const originalStdoutWrite = process.stdout.write;
+const FILTER_PATTERNS = [
+  'Bad MAC',
+  'Failed to decrypt message with any known session',
+  'Session error:',
+  'Failed to decrypt',
+  'Closing open session',
+  'Closing session:',
+  'SessionEntry',
+  '_chains:',
+  'registrationId:',
+  'currentRatchet:',
+  'indexInfo:',
+  '<Buffer',
+  'pubKey:',
+  'privKey:',
+  'baseKey:',
+  'remoteIdentityKey:',
+  'lastRemoteEphemeralKey:',
+  'ephemeralKeyPair:',
+  'chainKey:',
+  'chainType:',
+  'messageKeys:',
+  'previousCounter:',
+  'rootKey:'
+];
+
+process.stdout.write = function(chunk, encoding, callback) {
+  const str = chunk.toString();
+  const shouldFilter = FILTER_PATTERNS.some(pattern => str.includes(pattern));
+  
+  if (shouldFilter) {
+    if (str.includes('Closing open session')) {
+      const cleanMsg = '🔄 Signal Protocol: Updating encryption session...\n';
+      return originalStdoutWrite.call(this, Buffer.from(cleanMsg), encoding, callback);
+    }
+    
+    if (typeof callback === 'function') callback();
+    return true;
+  }
+  
+  return originalStdoutWrite.call(this, chunk, encoding, callback);
+};
+
+console.error = function(...args) {
+  const msg = args.join(' ');
+  
+  if (FILTER_PATTERNS.some(pattern => msg.includes(pattern))) {
+    if (msg.includes('Bad MAC')) {
+      originalLog(chalk.yellow('🔒 Signal Protocol: Updating encryption session...'));
+    }
+    return;
+  }
+  
+  originalError.apply(console, args);
+};
+
+console.log = function(...args) {
+  const msg = args.join(' ');
+  
+  if (FILTER_PATTERNS.some(pattern => msg.includes(pattern))) {
+    return;
+  }
+  
+  originalLog.apply(console, args);
+};
+
 const authDir = path.join(process.cwd(), 'session');
 
 function centerText(text) {
