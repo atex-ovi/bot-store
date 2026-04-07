@@ -32,10 +32,7 @@
 </p>
 
 <p align="center">
-  <!-- 🔹 Donate & Contact -->
-  <a href="https://saweria.co/atexovi" target="_blank">
-    <img src="https://img.shields.io/badge/Saweria-FFA726?style=flat&logo=ko-fi&logoColor=white" alt="Saweria">
-  </a>
+  <!-- 🔹 Contact -->
   <a href="https://t.me/atexovi" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-29A9EB?style=flat&logo=telegram&logoColor=white" alt="Telegram">
   </a>
